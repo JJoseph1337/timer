@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  width: 100%;
+  color: white;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 68px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 68px;
+}
+
+.App-container {
+  border-radius: 24px;
+
+  width: 400px;
+
+  padding: 24px;
+  border: 1px solid #282c34;
+}
+
+.App-container-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.mt16 {
+  margin-top: 12px;
+}
